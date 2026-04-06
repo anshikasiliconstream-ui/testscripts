@@ -9,7 +9,7 @@ export class HomePage{
         this.tagline = page.getByText('THE CLINICAL SANCTUARY');
         this.securityText = page.getByText('Enterprise-grade security');
     
-
+    }
     async  gotohome(){
     await this.page.goto('http://ec2-13-48-105-24.eu-north-1.compute.amazonaws.com/')
 }
